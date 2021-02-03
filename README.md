@@ -1,16 +1,17 @@
-directory.io
-============
+# all-key
 
-##### [Install Go](http://golang.org/doc/install)
+All bitcoin private key.
 
-##### Install dependencies:
-```bash
-$ go get github.com/btcsuite/btcd
-```
+## Build & development
 
-##### Run:
-```bash
-$ go run directory.go
-```
+`$ git clone https://github.com/mingfunwong/all-bitcoin-private-key.git`
 
-By default, it listens on port 8085. [http://localhost:8085](http://localhost:8085)
+`$ cd ./all-bitcoin-private-key`
+
+`$ npm install -g grunt-cli bower yo generator-karma generator-angular`
+
+`$ npm install`
+
+`$ bower install`
+
+`$ grunt serve`
