@@ -9,9 +9,9 @@ import (
 	"math/rand"
 	"net/http"
 	"io/ioutil"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcd/btcec"
-	"github.com/btcsuite/btcd/chaincfg"
+	"github.com/btcziggurat/btcutil"
+	"github.com/btcziggurat/btcd/btcec"
+	"github.com/btcziggurat/btcd/chaincfg"
 )
 func checkBalance(address string, ch chan int) {
 	//queryComp := "https://blockexplorer.com/api/addr/" + address + "/balance"
