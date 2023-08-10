@@ -6,9 +6,9 @@ import (
 	"math/big"
 	"net/http"
 
-	"github.com/btcsuite/btcd/btcec"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcutil"
+	"github.com/btcziggurat/btcutil"
+	"github.com/btcziggurat/btcd/btcec"
+	"github.com/btcziggurat/btcd/chaincfg"
 )
 
 const ResultsPerPage = 128
